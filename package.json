@@ -1,0 +1,36 @@
+{
+  "name": "style-modules-pack-default",
+  "version": "0.1.0",
+  "description": "The Default Pack for Style Modules",
+  "license": "MIT",
+  "repository": "style-modules/pack-default",
+  "bugs": "https://github.com/style-modules/pack-default/issues",
+  "author": "Samuel Champagne <iron@firemail.cc> (http://SamuelChampagne.com)",
+  "contributors": [],
+  "keywords": [
+    "style-modules",
+    "css",
+    "framework"
+  ],
+  "style": "main.css",
+  "scripts": {
+    "test": "standard && stylelint \"*.css\"",
+    "build": "gulp",
+    "serve": "gulp serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.x",
+    "gulp": "3.x",
+    "gulp-postcss": "6.x",
+    "gulp-sourcemaps": "2.x",
+    "postcss-cssnext": "2.x",
+    "postcss-import": "9.x",
+    "postcss-reporter": "3.x",
+    "standard": "*",
+    "stylelint": "*",
+    "stylelint-config-standard": "*",
+    "stylelint-order": "*",
+    "stylelint-rscss": "*"
+  }
+}
