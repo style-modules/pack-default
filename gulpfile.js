@@ -6,7 +6,7 @@ const postcssReporter = require('postcss-reporter')
 const cssimport = require('postcss-import')
 const cssnext = require('postcss-cssnext')
 
-gulp.task('default', () => gulp.src('main.css')
+gulp.task('default', () => gulp.src('./main.css')
     .pipe(sourcemaps.init())
     .pipe(postcss([
       cssimport(),
@@ -15,6 +15,7 @@ gulp.task('default', () => gulp.src('main.css')
     ]))
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./bundle/'))
+    .pipe(gulp.dest('./docs/demo/'))
 )
 
 gulp.task('serve', () => {
@@ -26,7 +27,7 @@ gulp.task('serve', () => {
     reloadDelay: 2000,
     logPrefix: 'BrowserSync',
     server: {
-      baseDir: './',
+      baseDir: './docs/demo/',
       directory: false
     }
   })

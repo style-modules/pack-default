@@ -1,0 +1,92 @@
+/* Base */
+:root {
+
+  /* Text Heading Variables */
+
+  /* Text Heading Scale */
+
+  /* Text Margin Multiplier */
+}
+/* Modules */
+p {
+  font-size: 16px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  margin-top: 16px;
+  margin-top: 1rem;
+}
+h1,
+.heading-1,
+h2,
+.heading-2,
+h3,
+.heading-3,
+h4,
+.heading-4,
+h5,
+.heading-5,
+h6,
+.heading-6 {
+  font-weight: normal;
+}
+h1,
+.heading-1 {
+  font-size: 64px;
+  font-size: 4rem;
+  margin: 45.333px auto;
+  margin: 2.83333rem auto;
+}
+h2,
+.heading-2 {
+  font-size: 56px;
+  font-size: 3.5rem;
+  margin: 41.333px auto;
+  margin: 2.58333rem auto;
+}
+h3,
+.heading-3 {
+  font-size: 48px;
+  font-size: 3rem;
+  margin: 37.333px auto;
+  margin: 2.33333rem auto;
+}
+h4,
+.heading-4 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  margin: 33.333px auto;
+  margin: 2.08333rem auto;
+}
+h5,
+.heading-5 {
+  font-size: 32px;
+  font-size: 2rem;
+  margin: 29.333px auto;
+  margin: 1.83333rem auto;
+}
+h6,
+.heading-6 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  margin: 25.333px auto;
+  margin: 1.58333rem auto;
+}
+h1 > small,
+.heading-1 > small,
+h2 > small,
+.heading-2 > small,
+h3 > small,
+.heading-3 > small,
+h4 > small,
+.heading-4 > small,
+h5 > small,
+.heading-5 > small,
+h6 > small,
+.heading-6 > small {
+  color: rgb(102, 102, 102);
+  font-size: 60%;
+  font-weight: inherit;
+}
+
+/*# sourceMappingURL=main.css.map */

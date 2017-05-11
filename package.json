@@ -14,11 +14,14 @@
   ],
   "style": "main.css",
   "scripts": {
-    "test": "standard && stylelint \"*.css\"",
+    "test": "standard | snazzy && stylelint \"*.css\"",
     "build": "gulp",
     "serve": "gulp serve"
   },
-  "dependencies": {},
+  "dependencies": {
+    "base-default": "style-modules/base-default#05512c2",
+    "module-typography": "style-modules/module-typography#028cefd"
+  },
   "devDependencies": {
     "browser-sync": "2.x",
     "gulp": "3.x",
@@ -27,6 +30,7 @@
     "postcss-cssnext": "2.x",
     "postcss-import": "9.x",
     "postcss-reporter": "3.x",
+    "snazzy": "*",
     "standard": "*",
     "stylelint": "*",
     "stylelint-config-standard": "*",
