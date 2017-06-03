@@ -3,9 +3,9 @@
 
   /* Text Heading Variables */
 
-  /* Text Heading Scale */
+  /* Text Heading Font Sizes */
 
-  /* Text Margin Multiplier */
+  /* Text Heading Spacing (Margins) */
 }
 /* Modules */
 p {
@@ -34,43 +34,43 @@ h1,
 .heading-1 {
   font-size: 64px;
   font-size: 4rem;
-  margin: 45.333px auto;
-  margin: 2.83333rem auto;
+  margin: 64px;
+  margin: 4rem;
 }
 h2,
 .heading-2 {
   font-size: 56px;
   font-size: 3.5rem;
-  margin: 41.333px auto;
-  margin: 2.58333rem auto;
+  margin: 56px;
+  margin: 3.5rem;
 }
 h3,
 .heading-3 {
   font-size: 48px;
   font-size: 3rem;
-  margin: 37.333px auto;
-  margin: 2.33333rem auto;
+  margin: 48px;
+  margin: 3rem;
 }
 h4,
 .heading-4 {
   font-size: 40px;
   font-size: 2.5rem;
-  margin: 33.333px auto;
-  margin: 2.08333rem auto;
+  margin: 40px;
+  margin: 2.5rem;
 }
 h5,
 .heading-5 {
   font-size: 32px;
   font-size: 2rem;
-  margin: 29.333px auto;
-  margin: 1.83333rem auto;
+  margin: 32px;
+  margin: 2rem;
 }
 h6,
 .heading-6 {
   font-size: 24px;
   font-size: 1.5rem;
-  margin: 25.333px auto;
-  margin: 1.58333rem auto;
+  margin: 24px;
+  margin: 1.5rem;
 }
 h1 > small,
 .heading-1 > small,
