@@ -1,11 +1,10 @@
 {
-  "name": "style-modules-pack-default",
+  "name": "@style-modules/pack-default",
   "version": "0.1.0",
   "description": "The Default Pack for Style Modules",
-  "license": "MIT",
+  "license": "CC0-1.0",
   "repository": "style-modules/pack-default",
-  "bugs": "https://github.com/style-modules/pack-default/issues",
-  "author": "Samuel Champagne <iron@firemail.cc> (http://SamuelChampagne.com)",
+  "author": "Samuel Champagne <astraloverflow@firemail.cc> (http://SamuelChampagne.com)",
   "contributors": [],
   "keywords": [
     "style-modules",
@@ -24,6 +23,7 @@
   },
   "devDependencies": {
     "browser-sync": "2.x",
+    "cz-conventional-changelog": "^2.1.0",
     "gulp": "3.x",
     "gulp-postcss": "6.x",
     "gulp-sourcemaps": "2.x",
@@ -36,5 +36,10 @@
     "stylelint-config-standard": "16.x",
     "stylelint-order": "0.4.x",
     "stylelint-rscss": "0.4.x"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
