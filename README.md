@@ -4,12 +4,11 @@ style-modules/pack-default
 [![License][license-image]][license-link]
 [![Version][version-image]][version-link]
 [![Build Status][build-image]][build-link]
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)][graph-link]
-[![Open Issues][issues-image]][issues-link]
+[![Gitter][gitter-image]][gitter-link]
 
 > The Default Pack for Style Modules
 
-## Quick Start
+## Getting Started
 Install via npm
 ```shell
 npm install --save style-modules/pack-default#0.1.0
@@ -26,6 +25,5 @@ Or include via RawGit
 [version-link]: https://github.com/style-modules/pack-default/releases
 [build-image]:https://travis-ci.org/style-modules/pack-default.svg?branch=master
 [build-link]: https://travis-ci.org/style-modules/pack-default
-[graph-link]: https://github.com/style-modules/pack-default/graphs/contributors
-[issues-image]: https://img.shields.io/github/issues/style-modules/pack-default.svg
-[issues-link]: https://github.com/style-modules/pack-default/issues
+[gitter-image]: https://badges.gitter.im/style-modules.svg
+[gitter-link]: https://gitter.im/style-modules
