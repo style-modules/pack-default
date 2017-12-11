@@ -1,5 +1,12 @@
+/*!
+ * Pack-Default (Style Modules Package)
+ * LICENSE: Creative Commons Zero 1.0 (aka CC0 1.0)
+ * https://github.com/style-modules/pack-default
+ */
+
 /* Base */
 @import "base-default";
 
 /* Modules */
 @import "module-typography";
+@import "module-semantic";
